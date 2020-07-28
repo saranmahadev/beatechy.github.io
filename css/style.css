@@ -296,7 +296,10 @@ a:hover, a:active, a:focus {
   background: url('../images/networking.jpg') no-repeat;
   height: 100vh;
 }
-
+.main-csirandgate {
+  background: url('../images/csirandgate/1.jpg') no-repeat;
+  height: 100vh;
+}
 #particles-js {
   position: absolute;
   width: 100%;
