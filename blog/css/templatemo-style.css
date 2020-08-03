@@ -1,13 +1,6 @@
-/*
-
-Timeless Template 
-
-http://www.templatemo.com/tm-517-timeless
-
-*/
 
 body {
-    background-color: #333333;
+    background-color: #000;
     color: #FFFFFF;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -27,14 +20,7 @@ h3 {
     font-size: 1.3rem;
 }
 
-.tm-site-logo {
-    width: 40px;
-    height: 40px;
-    border: 7px solid white;
-    transform: rotate(45deg);
-    display: inline-block;
-    vertical-align: middle;
-}
+
 
 .tm-site-title {
     display: inline-block;
@@ -150,7 +136,7 @@ a.tm-text-white:focus {
 
 hr {
     border-color: #666666;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .tm-video-iframe {
@@ -158,7 +144,7 @@ hr {
 }
 
 .tm-timeline-item {
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 .tm-timeline-item-inner {
@@ -167,8 +153,8 @@ hr {
 }
 
 .tm-img-timeline {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -202,34 +188,6 @@ hr {
     margin-top: 85px;
 }
 
-.tm-contact-form {
-    max-width: 500px;
-}
-
-.form-control {
-    border-radius: 0;
-    border-color: #666666;
-	color: #CCC;
-    background: transparent;
-    padding: 12px 15px;
-}
-
-.form-control::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #CCCCCC;
-    opacity: 1;
-    /* Firefox */
-}
-
-.form-control:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #DDDDDD;
-}
-
-.form-control::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #DDDDDD;
-}
 
 iframe {
     max-width: 100%;
@@ -253,7 +211,7 @@ iframe {
 .tm-btn-send:hover,
 .tm-btn-send:focus {
     background: #CCCCCC;
-    color: #333333;
+    color: #000;
 }
 
 .form-control:focus {
@@ -367,4 +325,14 @@ p {
         min-width: auto;
         max-width: 125%;
     }
+}
+
+@font-face {
+    font-family: "Edwardian Script";
+    src: url(ITCEDSCR.ttf);
+}
+.blogtitle
+{
+    font-family: Edwardian Script;
+    color: #FFF;
 }
