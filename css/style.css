@@ -242,6 +242,10 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
+.main-bg {
+  background: url('../images/home-bg.jpg') no-repeat;
+  height: 25vh;
+}
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
 }
