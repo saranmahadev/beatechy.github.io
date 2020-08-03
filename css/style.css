@@ -364,27 +364,11 @@ a:hover, a:active, a:focus {
   background: url('../images/home-bg.jpg') no-repeat;
   height: 100vh;
 }
-
-.main-bg {
-  background: url('../images/home-bg.jpg') no-repeat;
-  height: 25vh;
-}
-.main-contact {
-  background: url('../images/contact-bg.jpg') no-repeat;
+.main-blog {
+  background: url('../images/home-bg-2.jpg') no-repeat;
+  height: 100vh;
 }
 
-.main-cpp {
-  background: url('../images/cplusplus.jpg') no-repeat;
-  height: 100vh;
-}
-.main-networking {
-  background: url('../images/networking.jpg') no-repeat;
-  height: 100vh;
-}
-.main-csirandgate {
-  background: url('../images/csirandgate/1.jpg') no-repeat;
-  height: 100vh;
-}
 #particles-js {
   position: absolute;
   width: 100%;
