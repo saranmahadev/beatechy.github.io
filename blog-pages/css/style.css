@@ -1891,3 +1891,124 @@ blockquote {
 .uipasta-credit a:hover {
     color: #333333;
 }
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.modal-box{ font-family: 'Poppins', sans-serif; }
+.modal-box .show-modal{
+    color: #00ABFF;
+    background-color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    margin: 80px auto 0;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    display: block;
+}
+.modal-box .show-modal:hover{
+    color: #00ABFF;
+    border: none;
+    outline: none;
+}
+.modal-backdrop.in{ opacity: 0; }
+.modal-box .modal{ top: 90px !important; }
+.modal-box .modal-dialog{
+    width: 500px;
+    margin: 20px auto 0;
+}
+.modal-box .modal-dialog .modal-content{
+    text-align: center;
+    border: none;
+    position: relative;
+}
+.modal-box .modal-dialog .modal-content .close{
+    color: #00ABFF;
+    font-size: 28px;
+    line-height: 15px;
+    text-shadow: none;
+    opacity: 1;
+    position: absolute;
+    left: auto;
+    right: 4px;
+    top: 4px;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.modal-box .modal-dialog .modal-content .close:hover{ color: #00ABFF; }
+.modal-box .modal-dialog .modal-content .close:focus{ outline: none; }
+.modal-box .modal-dialog .modal-content .modal-body{ padding: 10px 25px 30px!important; }
+.modal-box .modal-dialog .modal-content .modal-body .icon{
+    color: #00ABFF;
+    background: #fff;
+    font-size: 100px;
+    line-height: 157px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+    border-radius: 15px 15px;
+    box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.3);
+    transform: rotate(45deg);
+}
+.modal-box .modal-dialog .modal-content .modal-body .title{
+    color: #343434;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.modal-box .modal-dialog .modal-content .modal-body .title span{
+    color: #00ABFF;
+    font-weight: 600;
+}
+.modal-box .modal-dialog .modal-content .modal-body .description{
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 15px 20px;
+}
+.modal-box .modal-dialog .modal-content .modal-body .subscribe{
+    color: #fff;
+    background: linear-gradient(to right,#000,#00ABFF);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.modal-box .modal-dialog .modal-content .modal-body .subscribe span{
+    transform: scale(1);
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.modal-box .modal-dialog .modal-content .modal-body .subscribe:hover span{
+    animation-name: zoom;
+    animation-timing-function: linear;
+    animation-duration: 0.4s;
+}
+@keyframes zoom{
+    0%{ transform:scale(0); }
+    25%{ transform:scale(0.3); }
+    50%{ transform:scale(0.7); }
+    100%{ transform:scale(1); }
+}
+@media only screen and (max-width: 576px){
+    .modal-dialog{ width: 93% !important; }
+}
+
