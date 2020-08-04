@@ -2012,3 +2012,98 @@ blockquote {
     .modal-dialog{ width: 93% !important; }
 }
 
+.pagination-outer{ text-align: center; background-color: #FFF;}
+.pagination{
+    font-family: 'Nunito', sans-serif;
+    display: inline-flex;
+}
+.pagination li{ margin: 0 7px; }
+.pagination li a.page-link{
+    color: #222;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    height: 33px;
+    width: 33px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+
+
+.pagination li.active a.page-link,
+.pagination li a.page-link:hover,
+.pagination li.active a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:focus{
+    color: #00ABFF;
+    background: transparent;
+    border: none;
+}
+.pagination li a.page-link:before,
+.pagination li a.page-link:after{
+    content: '';
+    background-color: #00ABFF;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 1px;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.pagination li a.page-link:after{
+    background-color: #fff;
+    top: -100%;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:before{
+    border-radius: 50%;
+    opacity: 1;
+}
+.pagination li a.page-link:hover:after,
+.pagination li a.page-link:focus:after,
+.pagination li.active a.page-link:after{
+    opacity: 1;
+    transform: scale(1,0.9);
+    top: 3px;
+}
+.pagination li:first-child a.page-link,
+.pagination li:last-child a.page-link{
+    background: #e7e7e7;
+    font-size: 16px;
+    line-height: 34px;
+    width: auto;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.pagination li:first-child a.page-link:hover,
+.pagination li:last-child a.page-link:hover{
+    color: #fff;
+    background: #00ABFF;
+}
+.pagination li:first-child a.page-link:before,
+.pagination li:last-child a.page-link:before,
+.pagination li:first-child a.page-link:after,
+.pagination li:last-child a.page-link:after{
+    display: none;
+}
+@media only screen and (max-width: 480px){
+    .pagination{
+        font-size: 0;
+        display: block;
+    }
+    .pagination li{
+        margin: 5px 7px;
+        display: inline-block;
+    }
+}
