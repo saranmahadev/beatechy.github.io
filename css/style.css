@@ -369,6 +369,10 @@ a:hover, a:active, a:focus {
   background: url('../images/home-bg-2.jpg') no-repeat;
   height: 100vh;
 }
+.main-csir {
+  background: url('../images/home-bg-3.jpg') no-repeat;
+  height: 100vh;
+}
 
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
