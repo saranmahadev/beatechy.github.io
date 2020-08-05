@@ -101,35 +101,70 @@
                         
                                                                               
                             <div class="col-md-12 content-page">
-                               <p>
-                                <h1>The Features of C++ as a Language</h1><br><br>
-Now that all the necessary theory has been covered, now it is possible to explain what C++ has to offer as a programming language. C++...<br>
-<b>• ...is an open ISO-standardized language.<br><br></b>
-For a time, C++ had no official standard and was maintained by a de-facto standard, however since 1998, C++ is standardized by a committee of the ISO. Their page may be accessed here.<br>
-<b>• ...is a compiled language.<br><br></b>
-C++ compiles directly to a machine's native code, allowing it to be one of the fastest languages in the world, if optimized.
-<b>• ...is a strongly-typed unsafe language.<br><br></b>
-C++ is a language that expects the programmer to know what he or she is doing, but allows for incredible amounts of control as a result.<br>
-<b>• ...supports both manifest and inferred typing.<br><br></b>
-As of the latest C++ standard, C++ supports both manifest an<br><br>d inferred typing, allowing flexibility and a means of avoiding verbosity where desired.<br>
-<b>• ...supports both static and dynamic type checking.<br><br></b>
-C++ allows type conversions to be checked either at compile-time or at run-time, again offering another degree of flexibility. Most C++ type checking is, however, static.<br>
-<b>• ...offers many paradigm choices.<br><br></b>
-C++ offers remarkable support for procedural, generic, and object-oriented programming paradigms, with many other paradigms being possible as well.<br>
-<b>• ...is portable.<br><br></b>
-As one of the most frequently used languages in the world and as an open language, C++ has a wide range of compilers that run on many different platforms that support it. Code that exclusively uses C++'s standard library will run on many platforms with few to no changes.<br>
-<b>• ...is upwards compatible with C<br><br></b>
-C++, being a language that directly builds off C, is compatible with almost all C code. C++ can use C libraries with few to no modifications of the libraries' code.<br>
-<b>• ...has incredible library support.<br><br></b>
-A search for "library" on the popular project-management website SourceForge will yield over 3000 results for C++ libraries.
- If you proficient in programming languages, one firstly needs to understand the basics of the language.<br>
+                              <p>
+                                <h2>STRUCTURE OF FUNCTION MAIN()</h2><br><br>
+ 
+
+C++ is an object oriented programming language which accompanying member function and global function. Simply the function having its own particular task and it doesn’t belong under any single particular class.<br><br>
+     
+       You can create your own function by your knowledge, otherwise you can use the ready made function from standard libraries.<br>
+      And it is necessary to write the global function “main()” it the has pays a special role do to the program. While starting a program we must use a symbol ‘#’ which indicates that the line of the program is indented for the preprocessor. The preprocessor is just one in the translation phase and no object code is there at the time.<br><br>
+       
+<h3>#include< filename.h ></h3><br><br>
+       This allows the program to access all information from he header file. The header file isostream comprises of conventions for input stream and output streams. The word stream represents that the information will be treated as a flow of data.<br>
+       Predefined names in C++ are to be found in the std (standard) namespace. The using directive allows direct access to the names of the std namespace.   <br>
+       Program execution begins with the first in the function main() and this is why the c++ program have function main(). The name cannot be changed, this function’s structure is not different from that of any other C++ function.<br><br>
+Let we take an example in the function main()<br>
+cout << "LEARN C++ PROGRAM FROM BE A TEACHY" << endl;<br><br>
 
 
-                               </p>
-                                
-                                  
-                                    
-                                    
+
+The word cout(console output) which is responsible for an object to give an output. The two less-than symbols, <<, indicate that characters are being “pushed” to the output stream. Finally endl (end of line) causes a line feed. The statement return 0;<br>
+Terminates the function main() and also the program, returning a value of 0 as an exit code to the calling program. It is standard practice to use the exit code 0 to indicate that a program has terminated correctly.<br>
+Note that statements are followed by a semicolon. By the way, the shortest statement comprises only a semicolon and does nothing.<br>
+<div class="about-author margin-top-70 margin-bottom-50">                            
+                              <div class="c-padding">
+                                 <h3>PROGRAM WITH FUNCTIONS <a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit Alex Website"></a></h3>
+                                 <p>/******************************************************<br>
+A program with some functions and comments<br>
+******************************************************/<br><br>
+#include < iostram.h ><br>
+using namespace std;<br>
+void line(), message();         // Prototypes<br>
+int main()<br>
+{<br>
+cout << "Hello! Hai! Learn from Be aTeachy()."
+<< endl;<br>
+line();<br>
+message();<br>
+line();<br>
+cout << "Get ready to learn." << endl;<br>
+return 0;<br>
+}<br>
+void line()                      // To draw a line.<br>
+{<br>
+cout << "--------------------------------" << endl;<br>
+}<br>
+void message()                 // To display a message.<br>
+{<br>
+cout << "We help you to learn." << endl;<br>
+}<br>
+<br><br>
+<h4>Screen output</h4><br><br>
+Hello! Hai! Learn from Be aTeachy().<br>
+-----------------------------------<br>
+We help you to learn.<br>
+-----------------------------------<br>
+Get ready to learn.</p>
+                                </div>
+                              </div></div>
+
+
+
+
+
+                              </p>
+
                                 </div></div>
 
 
@@ -139,17 +174,19 @@ A search for "library" on the popular project-management website SourceForge wil
                                     <nav class="pagination-outer" aria-label="Page navigation">
                                         <ul class="pagination">
                                             <li class="page-item">
-                                                <a href="../blog-pages/cpl-02.html" class="page-link" aria-label="Previous">
+                                                <a href="../blog-pages/cpl-06.html" class="page-link" aria-label="Previous">
                                                     <span aria-hidden="true">Prev</span>
                                                 </a>
                                             </li>
-                                            <li class="page-item"><a class="page-link" href="../blog-pages/cpl-01.html">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="../blog-pages/cpl-02.html">2</a></li>
-                                            <li class="page-item active"><a class="page-link" href="../blog-pages/cpl-03.html">3</a></li>
                                             <li class="page-item"><a class="page-link" href="../blog-pages/cpl-04.html">4</a></li>
                                             <li class="page-item"><a class="page-link" href="../blog-pages/cpl-05.html">5</a></li>
+                                            <li class="page-item"><a class="page-link" href="../blog-pages/cpl-06.html">6</a></li>
+                                            <li class="page-item active"><a class="page-link" href="../blog-pages/cpl-07.html">7</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">8</a></li>
+
+                                            
                                             <li class="page-item">
-                                                <a href="../blog-pages/cpl-04.html" class="page-link" aria-label="Next">
+                                                <a href="../blog-pages/cpl-08.html" class="page-link" aria-label="Next">
                                                     <span aria-hidden="true">Next</span>
                                                 </a>
                                             </li>
