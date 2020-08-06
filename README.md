@@ -2,7 +2,7 @@
 
 [Visit Us](https://beatechy.github.io)
 
-![alt text](https://beatechy.github.io/images/banner.png)
+![alt text](https://beatechy.github.io/images/banner2.jpg)
 Be A Techy is StartUp Project which aims to Create a Best Platform for all the Bloggers and Non-Bloggers
 
 ## Why we Started?
