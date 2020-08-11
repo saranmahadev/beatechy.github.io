@@ -273,7 +273,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Main Navigation             
+    Main Navigation White            
 -----------------------------------------*/
 
 .navbar-default {
@@ -339,6 +339,140 @@ a:hover, a:active, a:focus {
 }
 
 
+/*---------------------------------------
+    Main Navigation Red           
+-----------------------------------------*/
+
+.navbar-default-b {
+    background: #000;
+    margin: 0 !important;
+    padding: 18px 0;
+}
+
+.navbar-default-b .navbar-brand {
+  color: #FF0D00;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.navbar-default-b .navbar-nav li a {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.navbar-default-b .navbar-nav > li a:hover {
+    color: #FF0D00 !important;
+}
+
+.navbar-default-b .navbar-nav > li > a:hover,
+.navbar-default-b .navbar-nav > li > a:focus {
+    color: #606066;
+    background-color: transparent;
+}
+
+.navbar-default-b .navbar-nav li a:hover,
+ .navbar-default-b .navbar-nav .active > a {
+    color: #FF0D00;
+  }
+
+.navbar-default-b .navbar-nav > .active > a,
+.navbar-default-b .navbar-nav > .active > a:hover,
+.navbar-default-b .navbar-nav > .active > a:focus {
+    color: #FF0D00;
+    background-color: transparent;
+}
+
+.navbar-default-b .navbar-toggle {
+     border: none;
+     padding-top: 10px;
+  }
+
+.navbar-default-b .navbar-toggle .icon-bar {
+    background: #FF0D00;
+    border-color: transparent;
+  }
+
+.navbar-default-b .navbar-toggle:hover,
+.navbar-default-b .navbar-toggle:focus { 
+  background-color: transparent;
+}
+
+/*---------------------------------------
+    Main Navigation Yellow           
+-----------------------------------------*/
+
+.navbar-default-y {
+    background: #000;
+    margin: 0 !important;
+    padding: 18px 0;
+}
+
+.navbar-default-y .navbar-brand {
+  color: #F1A50D;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.navbar-default-y .navbar-nav li a {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.navbar-default-y .navbar-nav > li a:hover {
+    color: #F1A50D !important;
+}
+
+.navbar-default-y .navbar-nav > li > a:hover,
+.navbar-default-y .navbar-nav > li > a:focus {
+    color: #606066;
+    background-color: transparent;
+}
+
+.navbar-default-y .navbar-nav li a:hover,
+ .navbar-default-y .navbar-nav .active > a {
+    color: #F1A50D;
+  }
+
+.navbar-default-y .navbar-nav > .active > a,
+.navbar-default-y .navbar-nav > .active > a:hover,
+.navbar-default-y .navbar-nav > .active > a:focus {
+    color: #F1A50D;
+    background-color: transparent;
+}
+
+.navbar-default-y .navbar-toggle {
+     border: none;
+     padding-top: 10px;
+  }
+
+.navbar-default-y .navbar-toggle .icon-bar {
+    background: #F1A50D;
+    border-color: transparent;
+  }
+
+.navbar-default-y .navbar-toggle:hover,
+.navbar-default-y .navbar-toggle:focus { 
+  background-color: transparent;
+}
+
+
+
 
 /*---------------------------------------
     Home section              
@@ -371,6 +505,11 @@ a:hover, a:active, a:focus {
 }
 .main-csir {
   background: url('../images/home-bg-3.jpg') no-repeat;
+  height: 100vh;
+}
+
+.main-cyber {
+  background: url('../images/home-bg-4.jpg') no-repeat;
   height: 100vh;
 }
 
